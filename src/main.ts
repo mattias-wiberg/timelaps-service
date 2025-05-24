@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // Enable CORS for frontend applications
   app.enableCors({
-    origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost'], // Camera and timelapse frontends, and gateway
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost', 'https://84.217.51.153'], // Camera and timelapse frontends, and gateway
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: 'Content-Type,Authorization',
   });
